@@ -1,0 +1,24 @@
+{
+  "name": "foqus",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "foqus": "bin/foqus.js"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesaliyev/foqus.git"
+  },
+  "keywords": [
+    "focus"
+  ],
+  "author": "Rameş Aliyev <creator@ramesaliyev.com> (http://ramesaliyev.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesaliyev/foqus/issues"
+  },
+  "homepage": "https://github.com/ramesaliyev/foqus#readme"
+}
