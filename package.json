@@ -6,8 +6,7 @@
   "bin": {
     "foqus": "bin/foqus.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ramesaliyev/foqus.git"
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ramesaliyev/foqus/issues"
   },
-  "homepage": "https://github.com/ramesaliyev/foqus#readme"
+  "homepage": "https://github.com/ramesaliyev/foqus#readme",
+  "dependencies": {
+    "node-forge": "0.9.1"
+  }
 }
