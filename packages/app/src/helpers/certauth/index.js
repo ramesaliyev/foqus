@@ -143,11 +143,3 @@ class CertAuthManager {
 }
 
 module.exports = CertAuthManager;
-
-CertAuthManager.use(`/Users/ramesaliyev/.foqus`)
-  .then(async manager => {
-    await manager.getServerCertKeys('kesim.com');
-    await manager.getServerCertKeys('kesim.com');
-    await manager.getServerCertKeys('kesim.com');
-    await manager.getServerCertKeys('kesim.com');
-  });
