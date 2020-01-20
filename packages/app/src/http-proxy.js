@@ -1,15 +1,21 @@
 const http = require('http');
+const url = require('url');
 
 function proxyHttpRequest(req, res) {
   const {url, headers, method} = req;
   const {host} = headers;
+  const {pathname, search} = new URL(url);
 
   // Simply return whatever you want.
 
   console.log(`HTTP: ${method} ${url}`);
 
   const proxyReq = http.request({
-    host, method, headers, port: 80, path: url
+    host,
+    method,
+    headers,
+    port: 80,
+    path: pathname + search
   });
 
   proxyReq.on('response', proxyRes => {
